@@ -4,7 +4,11 @@
 
 | Namn | 
 |------|
+<<<<<<< HEAD
 | Salah Ud Din |
+=======
+| SlaahudDin |
+>>>>>>> db8647285e05a5c7bce1a5ad17eacc304e6e7706
 | Tarik Mulisic |
 
 ---
@@ -109,9 +113,16 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 > Nedan finns länkar till de Pull Requests som gjordes under projektets gång, med dokumenterade kodgranskningar.
 
+<<<<<<< HEAD
 ## Pull Requests
 - [PR #1 - Add README](https://github.com/Salah-Ud-Din01/M3-pytorch-api/pull/1)
 - [PR #2 - Update main.py](https://github.com/Salah-Ud-Din01/M3-pytorch-api/pull/2)
+=======
+| # | Titel | Granskare | Länk |
+|---|-------|-----------|------|
+| PR #1 | *(lägg till titel)* | *(lägg till namn)* | [🔗 Länk till PR #1](#) |
+| PR #2 | *(lägg till titel)* | *(lägg till namn)* | [🔗 Länk till PR #2](#) |
+>>>>>>> db8647285e05a5c7bce1a5ad17eacc304e6e7706
 
 > **OBS:** Ersätt `#`-länkarna ovan med de faktiska GitHub-länkarna till era Pull Requests.
 
