@@ -29,4 +29,4 @@ async def predict(file: UploadFile = File(...)):
     outputs = session.run(None, inputs)
     predicted_index = int(np.argmax(outputs[0], axis=1)[0])
     predicted_class = CLASSES[predicted_index]
-    return JSONResponse({"prediction": predicted_class, "class_index": predicted_index})
+    return JSONResponse({"prediction": predicted_class, "class_index": predicted_index})# updated
